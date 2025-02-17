@@ -3,53 +3,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shreem DeFi - Home</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #000;
-            color: white;
-            text-align: center;
-        }
-        .hero {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            background: linear-gradient(45deg, #ff0000, #ffd700);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        .hero h1 {
-            font-size: 3em;
-            text-shadow: 0 0 20px #ff0000;
-        }
-        .hero p {
-            font-size: 1.5em;
-            color: #ffd700;
-        }
-        .btn {
-            padding: 15px 30px;
-            font-size: 1.2em;
-            background: #ff0000;
-            color: white;
-            border: none;
-            cursor: pointer;
-            transition: 0.3s;
-            border-radius: 10px;
-        }
-        .btn:hover {
-            background: #ffd700;
-            color: #000;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="hero">
-        <h1>Welcome to Shreem DeFi</h1>
+    <header>
+        <h1 class="glow">Welcome to Shreem DeFi</h1>
         <p>Your trusted platform for decentralized finance and investment.</p>
-        <button class="btn">Invest Now</button>
-    </div>
+        <a href="invest.html" class="btn">Invest Now</a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="plans.html">Investment Plans</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+    </nav>
+    <script src="script.js"></script>
 </body>
 </html>
