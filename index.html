@@ -2,46 +2,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shreem DeFi</title>
+    <title>Shreem DeFi - Home</title>
     <style>
         body {
-            background-color: #121212;
-            color: #FFD700;
-            font-family: Arial, sans-serif;
-            text-align: center;
             margin: 0;
-            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #000;
+            color: white;
+            text-align: center;
         }
-        header {
-            background: #8B0000;
-            padding: 20px;
-            font-size: 24px;
-            font-weight: bold;
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(45deg, #ff0000, #ffd700);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
-        .container {
-            padding: 50px;
+        .hero h1 {
+            font-size: 3em;
+            text-shadow: 0 0 20px #ff0000;
         }
-        .invest-btn {
-            background: gold;
-            color: black;
+        .hero p {
+            font-size: 1.5em;
+            color: #ffd700;
+        }
+        .btn {
             padding: 15px 30px;
-            font-size: 20px;
+            font-size: 1.2em;
+            background: #ff0000;
+            color: white;
             border: none;
             cursor: pointer;
-            border-radius: 5px;
-            margin-top: 20px;
+            transition: 0.3s;
+            border-radius: 10px;
         }
-        .invest-btn:hover {
-            background: #FFD700;
+        .btn:hover {
+            background: #ffd700;
+            color: #000;
         }
     </style>
 </head>
 <body>
-    <header>Shreem DeFi</header>
-    <div class="container">
+    <div class="hero">
         <h1>Welcome to Shreem DeFi</h1>
         <p>Your trusted platform for decentralized finance and investment.</p>
-        <button class="invest-btn">Invest Now</button>
+        <button class="btn">Invest Now</button>
     </div>
 </body>
 </html>
